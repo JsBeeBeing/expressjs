@@ -1,0 +1,14 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "Backend, APIs y mas",
+  "main": "APP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jose",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
