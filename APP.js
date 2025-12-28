@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = 3000
+const PORT = process.env.PORT || 3001
 
 app.get('/',(req,res)=>{
     res.send(
@@ -14,5 +14,3 @@ app.listen(PORT,(req,res)=>{
     console.log(`Funcionando en puerto ${PORT}`);
     
 })
-
-const a ='Prueba'
