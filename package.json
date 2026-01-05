@@ -4,11 +4,13 @@
   "description": "Backend, APIs y mas",
   "main": "APP.js",
   "scripts": {
+    "dev": "node --watch APP.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jose",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1"
   }
 }
