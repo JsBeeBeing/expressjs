@@ -1,16 +1,12 @@
 {
-  "name": "expressjs",
+  "name": "node",
   "version": "1.0.0",
-  "description": "Backend, APIs y mas",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "APP.js",
   "scripts": {
-    "dev": "node --watch APP.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "jose",
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1"
   }
 }

@@ -11,8 +11,7 @@ console.log(process.env.PORT);
 app.use(express.json())
 app.get('/',(req,res)=>{
     res.send(
-        `<h1>Ayer estaba con Lebron tambien con Di Caprio</h1>
-        <h3>Di monaco</h3>
+        `<h1>Pruebas remotas</h1>
         <p>Funcionando en puerto ${PORT}</p>
         `
     )
